@@ -1,0 +1,5 @@
+---
+refresh_interval: 2 # seconds
+max_price: 220 # dollars
+urls:
+  - https://www.dasgibtesnureinmal.de/bushmills-the-original-irish-whiskey-1-0l.html
