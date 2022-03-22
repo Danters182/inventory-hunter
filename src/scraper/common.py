@@ -182,7 +182,7 @@ class ScraperFactory:
         for domain, scraper_type in cls.registry.items():
             if domain in url.netloc:
                 return scraper_type(drivers, url)
-        logging.warning(f'warning: using generic scraper for url: {url}')
+        logging.warning(f'warning: using generic scraper for url: test {url}')
         return GenericScraper(drivers, url)
 
     @classmethod
